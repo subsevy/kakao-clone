@@ -10,6 +10,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -40,9 +41,9 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend_avatar" />
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Sub Yoon
@@ -58,7 +59,7 @@
         <h5 class="friends__title">Plus Friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend_avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -71,7 +72,7 @@
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend_avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Sub Yoon
@@ -83,8 +84,10 @@
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span class="">FTISLAND FT.NomadCoders</span>
-              <i class="fas fa-play"></i>
+              <span class="">
+                FTISLAND FT.NomadCoders
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
@@ -94,8 +97,8 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="fas fa-user"></i
-          ></a>
+            <i class="fas fa-user"></i>
+          </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
